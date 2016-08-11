@@ -1,0 +1,67 @@
+section {
+  background-color: #2B2B2A;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+}
+
+.prof-watson-user {
+	color: #ee1515 !important;
+}
+
+section input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #eee;
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+  height: 40px;
+  margin: 5px auto 2px auto;
+  outline: none;
+  padding: 0;
+  width: 70%;
+}
+
+#messages {
+  background-color:#232323;
+  height: 500px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  overflow-y:auto;
+}
+
+#messages p {
+  margin:5px 0;
+  padding:0;
+}
+
+.info {
+  margin:5px 0;
+  font-style:italic;
+}
+
+.message-container {
+  margin:5px 0;
+  color:#fff;
+}
+
+.message-container .username {
+  display:inline-block;
+  margin-right:5px;
+  font-weight:bold;
+  color:#849091;
+}
+
+.me, .username.me {
+  font-weight:bold;
+  color:cyan;
+}
+
+.message-container .username.me {
+  display:inline-block;
+  margin-right:5px;
+}

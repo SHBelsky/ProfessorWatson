@@ -1,0 +1,4072 @@
+{
+    "name": "Professor Watson Workspace",
+    "created": "2016-07-18T23:40:49.138Z",
+    "intents": [
+        {
+            "intent": "AboutMe",
+            "created": "2016-07-20T19:47:08.427Z",
+            "examples": [
+                {
+                    "text": "How can you help me?",
+                    "created": "2016-07-20T19:47:08.427Z"
+                },
+                {
+                    "text": "What are you?",
+                    "created": "2016-07-20T19:47:08.427Z"
+                },
+                {
+                    "text": "What is Professor Watson?",
+                    "created": "2016-07-20T19:47:08.427Z"
+                },
+                {
+                    "text": "Who are you?",
+                    "created": "2016-07-20T19:47:08.427Z"
+                },
+                {
+                    "text": "Who developed you?",
+                    "created": "2016-07-20T19:47:08.427Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "AttackType",
+            "created": "2016-07-22T23:12:42.150Z",
+            "examples": [
+                {
+                    "text": "How do I beat?",
+                    "created": "2016-07-23T22:11:50.004Z"
+                },
+                {
+                    "text": "How do I beat a",
+                    "created": "2016-07-23T22:11:32.457Z"
+                },
+                {
+                    "text": "How do I beat a [Pokemon]?",
+                    "created": "2016-07-23T22:11:41.985Z"
+                },
+                {
+                    "text": "How to beat a [Pokemon]",
+                    "created": "2016-07-22T23:13:03.428Z"
+                },
+                {
+                    "text": "How to beat [Pokemon]",
+                    "created": "2016-07-22T23:13:48.479Z"
+                },
+                {
+                    "text": "How to defeat a [Pokemon]",
+                    "created": "2016-07-22T23:14:35.670Z"
+                },
+                {
+                    "text": "How to defeat [Pokemon]",
+                    "created": "2016-07-22T23:14:40.286Z"
+                },
+                {
+                    "text": "what is good against Pikachu",
+                    "created": "2016-07-22T23:35:52.035Z"
+                },
+                {
+                    "text": "What to use against a [Pokemon]",
+                    "created": "2016-07-22T23:14:10.561Z"
+                },
+                {
+                    "text": "What to use against [Pokemon]",
+                    "created": "2016-07-22T23:14:06.541Z"
+                },
+                {
+                    "text": "What types are good against a [Pokemon]",
+                    "created": "2016-07-22T23:13:31.357Z"
+                },
+                {
+                    "text": "What types are good against [Pokemon]",
+                    "created": "2016-07-22T23:13:40.436Z"
+                },
+                {
+                    "text": "Which types are good against a [Pokemon]",
+                    "created": "2016-07-22T23:13:18.785Z"
+                },
+                {
+                    "text": "Which types are good against [Pokemon]",
+                    "created": "2016-07-22T23:13:24.145Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "BestPokemon",
+            "created": "2016-07-20T20:19:35.425Z",
+            "examples": [
+                {
+                    "text": "What is the best Pokemon?",
+                    "created": "2016-07-20T20:19:35.425Z"
+                },
+                {
+                    "text": "What is the number 1 Pokemon",
+                    "created": "2016-07-22T22:40:04.515Z"
+                },
+                {
+                    "text": "What is the strongest Pokemon?",
+                    "created": "2016-08-02T17:30:23.664Z"
+                },
+                {
+                    "text": "What is your favorite Pokemon",
+                    "created": "2016-07-22T22:39:41.947Z"
+                },
+                {
+                    "text": "What Pokemon is the strongest?",
+                    "created": "2016-08-02T17:30:29.257Z"
+                },
+                {
+                    "text": "Which is the best Pokemon",
+                    "created": "2016-07-22T22:39:50.566Z"
+                },
+                {
+                    "text": "Which is your favorite Pokemon",
+                    "created": "2016-07-22T22:39:57.547Z"
+                },
+                {
+                    "text": "Which pokemon is number 1?",
+                    "created": "2016-07-22T22:40:14.396Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "BeTheBest",
+            "created": "2016-08-02T14:25:55.212Z",
+            "examples": [
+                {
+                    "text": "How can I be the best at Pokemon",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How can I be the best like no one ever was",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How can I be the best that no one ever was",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How can I win the game",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How do I be the best",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How do I win",
+                    "created": "2016-08-02T14:25:55.212Z"
+                },
+                {
+                    "text": "How do I win the game",
+                    "created": "2016-08-02T14:25:55.212Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "EggDistance",
+            "created": "2016-07-18T23:47:36.140Z",
+            "examples": [
+                {
+                    "text": "What Pokemon could come out of a",
+                    "created": "2016-07-18T23:47:36.140Z"
+                },
+                {
+                    "text": "What Pokemon is going to come out of my egg?",
+                    "created": "2016-07-18T23:47:36.140Z"
+                },
+                {
+                    "text": "What Pokemon is going to hatch from my egg?",
+                    "created": "2016-07-18T23:47:36.140Z"
+                },
+                {
+                    "text": "What Pokemon will hatch from my",
+                    "created": "2016-07-18T23:47:36.140Z"
+                },
+                {
+                    "text": "What Pokemon will hatch from my egg?",
+                    "created": "2016-07-18T23:47:36.140Z"
+                },
+                {
+                    "text": "What will my egg hatch?",
+                    "created": "2016-07-18T23:47:36.140Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Emotion",
+            "created": "2016-07-29T02:37:31.422Z",
+            "examples": [
+                {
+                    "text": "How are you?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "How are you doing?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "How are you doing today?",
+                    "created": "2016-07-29T02:51:44.410Z"
+                },
+                {
+                    "text": "How are you feeling?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "How are you feeling today?",
+                    "created": "2016-07-29T02:51:52.737Z"
+                },
+                {
+                    "text": "How are you today?",
+                    "created": "2016-07-29T02:51:37.408Z"
+                },
+                {
+                    "text": "How're you feeling?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "what is up Watson",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "What's up?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "what's up Watson",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "What's up Watson?",
+                    "created": "2016-07-29T02:37:31.422Z"
+                },
+                {
+                    "text": "yo what's up",
+                    "created": "2016-07-29T02:37:31.422Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Evolution",
+            "created": "2016-07-18T23:40:49.138Z",
+            "examples": [
+                {
+                    "text": "how can Eevee evolve?",
+                    "created": "2016-07-29T14:25:57.640Z"
+                },
+                {
+                    "text": "How can I evolve",
+                    "created": "2016-07-29T14:25:38.123Z"
+                },
+                {
+                    "text": "how can I evolve a",
+                    "created": "2016-07-29T14:25:43.780Z"
+                },
+                {
+                    "text": "How can I evolve a?",
+                    "created": "2016-07-29T14:25:35.113Z"
+                },
+                {
+                    "text": "how can Pikachu evolve",
+                    "created": "2016-07-29T14:25:53.167Z"
+                },
+                {
+                    "text": "How does Bulbasaur evolve?",
+                    "created": "2016-07-25T12:29:38.484Z"
+                },
+                {
+                    "text": "How does Pikachu evolve?",
+                    "created": "2016-07-25T12:29:31.278Z"
+                },
+                {
+                    "text": "What are the evolutions for",
+                    "created": "2016-07-18T23:40:49.138Z"
+                },
+                {
+                    "text": "What are the possible evolutions for",
+                    "created": "2016-07-18T23:40:49.138Z"
+                },
+                {
+                    "text": "What could be the evolution of",
+                    "created": "2016-07-23T23:12:15.319Z"
+                },
+                {
+                    "text": "What could [pokemon] evolve into?",
+                    "created": "2016-07-23T23:10:28.816Z"
+                },
+                {
+                    "text": "What could this Pokemon evolve into?",
+                    "created": "2016-07-23T23:10:21.812Z"
+                },
+                {
+                    "text": "What does Charizard evolve into?",
+                    "created": "2016-07-25T12:29:24.083Z"
+                },
+                {
+                    "text": "What does Dratini evolve into?",
+                    "created": "2016-07-25T12:29:17.680Z"
+                },
+                {
+                    "text": "What does Pikachu evolve into?",
+                    "created": "2016-07-25T12:29:12.782Z"
+                },
+                {
+                    "text": "What does this Pokemon evolve into?",
+                    "created": "2016-07-23T23:09:54.347Z"
+                },
+                {
+                    "text": "What is the evolution of",
+                    "created": "2016-07-18T23:40:49.138Z"
+                },
+                {
+                    "text": "What is the evolution tree of",
+                    "created": "2016-07-20T19:43:23.210Z"
+                },
+                {
+                    "text": "What is the final evolution",
+                    "created": "2016-07-26T18:25:14.088Z"
+                },
+                {
+                    "text": "What is the final evolution of",
+                    "created": "2016-07-26T18:25:22.726Z"
+                },
+                {
+                    "text": "What is the final evolution of Charizard?",
+                    "created": "2016-07-26T18:25:28.865Z"
+                },
+                {
+                    "text": "What is the final evolution of Venusaur?",
+                    "created": "2016-07-26T18:25:37.682Z"
+                },
+                {
+                    "text": "What is the last evolution of",
+                    "created": "2016-07-26T18:25:18.634Z"
+                },
+                {
+                    "text": "What is the last evolution of Magneton?",
+                    "created": "2016-07-26T18:25:44.592Z"
+                },
+                {
+                    "text": "Who is the evolution of",
+                    "created": "2016-07-18T23:40:49.138Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "EXP",
+            "created": "2016-07-18T23:45:23.262Z",
+            "examples": [
+                {
+                    "text": "How many levels would I gain from",
+                    "created": "2016-07-18T23:45:23.262Z"
+                },
+                {
+                    "text": "How much EXP do I get from",
+                    "created": "2016-07-18T23:45:23.262Z"
+                },
+                {
+                    "text": "How much experience do I get from",
+                    "created": "2016-07-18T23:45:39.049Z"
+                },
+                {
+                    "text": "How much experience would I gain from leveling",
+                    "created": "2016-07-18T23:45:47.387Z"
+                },
+                {
+                    "text": "How much experience would I get from leveling",
+                    "created": "2016-07-26T18:23:10.474Z"
+                },
+                {
+                    "text": "How much EXP would I gain from leveling",
+                    "created": "2016-07-18T23:45:23.262Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "FindPokemon",
+            "created": "2016-07-29T02:44:01.342Z",
+            "examples": [
+                {
+                    "text": "Catch",
+                    "created": "2016-08-02T13:57:22.794Z"
+                },
+                {
+                    "text": "How can I catch",
+                    "created": "2016-08-02T13:56:46.198Z"
+                },
+                {
+                    "text": "How can I catch a",
+                    "created": "2016-08-02T13:56:42.910Z"
+                },
+                {
+                    "text": "How can I catch Abra",
+                    "created": "2016-08-02T13:56:54.214Z"
+                },
+                {
+                    "text": "How can I catch an",
+                    "created": "2016-08-02T13:57:01.448Z"
+                },
+                {
+                    "text": "How can I catch the",
+                    "created": "2016-08-02T13:56:58.362Z"
+                },
+                {
+                    "text": "How can I find",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "How can I find a ?",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "How can I find this Pokemon?",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "how can I get",
+                    "created": "2016-07-29T14:14:29.510Z"
+                },
+                {
+                    "text": "How can I get?",
+                    "created": "2016-07-29T14:14:33.901Z"
+                },
+                {
+                    "text": "How can I get a?",
+                    "created": "2016-07-29T14:14:38.162Z"
+                },
+                {
+                    "text": "How catch",
+                    "created": "2016-08-02T13:57:20.418Z"
+                },
+                {
+                    "text": "How do I catch a",
+                    "created": "2016-08-02T13:56:35.286Z"
+                },
+                {
+                    "text": "How do I catch an",
+                    "created": "2016-08-02T13:57:07.152Z"
+                },
+                {
+                    "text": "How do I catch this Pokemon",
+                    "created": "2016-08-02T13:56:50.927Z"
+                },
+                {
+                    "text": "What is the best place to catch",
+                    "created": "2016-08-02T13:57:50.805Z"
+                },
+                {
+                    "text": "What is the best place to find",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "What is the best place to locate",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "What is the best place to look for",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "What is the best place to search for",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where can I catch",
+                    "created": "2016-08-02T13:57:39.220Z"
+                },
+                {
+                    "text": "Where can I catch a",
+                    "created": "2016-08-02T13:58:15.613Z"
+                },
+                {
+                    "text": "Where can I catch an",
+                    "created": "2016-08-02T13:58:20.489Z"
+                },
+                {
+                    "text": "Where can I find",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where can I find a?",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where can I find a Pikachu?",
+                    "created": "2016-07-29T13:33:08.119Z"
+                },
+                {
+                    "text": "Where can I find a Pokemon?",
+                    "created": "2016-07-29T13:33:20.760Z"
+                },
+                {
+                    "text": "Where can I find Pikachu?",
+                    "created": "2016-07-29T13:33:12.424Z"
+                },
+                {
+                    "text": "Where can I find this Pokemon?",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "where can I get",
+                    "created": "2016-07-29T14:14:49.332Z"
+                },
+                {
+                    "text": "Where can I get?",
+                    "created": "2016-07-29T14:14:56.083Z"
+                },
+                {
+                    "text": "where can I get a?",
+                    "created": "2016-07-29T14:14:53.173Z"
+                },
+                {
+                    "text": "Where do I catch",
+                    "created": "2016-08-02T13:57:44.894Z"
+                },
+                {
+                    "text": "Where is the best place to catch",
+                    "created": "2016-08-02T13:57:56.835Z"
+                },
+                {
+                    "text": "Where is the best place to look for",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where is the best place to search for",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where's the best place to find",
+                    "created": "2016-07-29T02:44:01.342Z"
+                },
+                {
+                    "text": "Where's the best place to look for",
+                    "created": "2016-07-29T02:44:01.342Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "GetCandies",
+            "created": "2016-08-02T17:56:11.859Z",
+            "examples": [
+                {
+                    "text": "How can I find candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I find candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I find candys",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I find more candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I find more candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I get candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I get candy?",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I get more candies?",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I get more candies for this Pokemon?",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "How can I get more candy?",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I find candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I find candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I find more candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I get candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I get candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I get more candies",
+                    "created": "2016-08-02T17:56:11.859Z"
+                },
+                {
+                    "text": "Where can I get more candy",
+                    "created": "2016-08-02T17:56:11.859Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "GetTheGame",
+            "created": "2016-08-02T17:07:15.223Z",
+            "examples": [
+                {
+                    "text": "How can I download Pokemon Go",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "How can I download the game",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "How can I get Pokemon Go",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "How can I get the game",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "Where can I download Pokemon Go",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "Where can I download the game",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "Where can I get Pokemon Go",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "Where can I get the game",
+                    "created": "2016-08-02T17:07:15.223Z"
+                },
+                {
+                    "text": "Where can I get this",
+                    "created": "2016-08-02T18:08:08.428Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Greetings",
+            "created": "2016-07-24T23:32:52.567Z",
+            "examples": [
+                {
+                    "text": "Good afternoon",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Good evening",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Good morning",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello!",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello Professor Watson",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello there",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello there!",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hello Watson",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hi",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hi!",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hi there",
+                    "created": "2016-07-24T23:32:52.567Z"
+                },
+                {
+                    "text": "Hi there!",
+                    "created": "2016-07-24T23:32:52.567Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "GymBattle",
+            "created": "2016-07-22T21:50:25.134Z",
+            "examples": [
+                {
+                    "text": "gym",
+                    "created": "2016-07-29T14:51:27.863Z"
+                },
+                {
+                    "text": "Help me attack this gym",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "Help me defeat this gym",
+                    "created": "2016-07-26T19:58:46.903Z"
+                },
+                {
+                    "text": "Help me take down this gym",
+                    "created": "2016-07-26T19:58:56.606Z"
+                },
+                {
+                    "text": "Help me win against this gym",
+                    "created": "2016-07-26T19:58:51.333Z"
+                },
+                {
+                    "text": "Help me win this gym",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "How can I beat this gym",
+                    "created": "2016-07-26T19:58:28.853Z"
+                },
+                {
+                    "text": "How can I beat this gym?",
+                    "created": "2016-07-26T19:58:24.533Z"
+                },
+                {
+                    "text": "How can I defeat this gym?",
+                    "created": "2016-07-26T19:58:40.256Z"
+                },
+                {
+                    "text": "How can I win against this gym?",
+                    "created": "2016-07-26T19:58:33.961Z"
+                },
+                {
+                    "text": "How can I win this gym?",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "How do I beat this gym?",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "I am at a gym",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "What are the best types against this gym?",
+                    "created": "2016-07-22T21:50:25.134Z"
+                },
+                {
+                    "text": "Which Pokemon should I use against this gym?",
+                    "created": "2016-07-22T21:50:25.134Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Incubator",
+            "created": "2016-08-02T18:01:42.403Z",
+            "examples": [
+                {
+                    "text": "How can I find an egg incubator",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I find an incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I find incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I find more egg incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I find more incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I get an egg incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I get incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "How can I get more egg incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I find an egg incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I find an incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I find incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I find more egg incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I find more incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I get an egg incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I get an incubator?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I get egg incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I get incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                },
+                {
+                    "text": "Where can I get more egg incubators?",
+                    "created": "2016-08-02T18:01:42.403Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "LevelUp",
+            "created": "2016-07-29T02:50:13.748Z",
+            "examples": [
+                {
+                    "text": "How can I gain EXP fast?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I gain levels easily?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I gain levels fast?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I gain XP fast?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I go up in level easily?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I go up in level fast?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "How can I level up fast?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the best way to easily level up?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the best way to gain levels?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the best way to level up?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the easiest way to level up?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the fastest way to easily level up?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the fastest way to get high level?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the fastest way to get to level 20?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the fastest way to go up in level?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                },
+                {
+                    "text": "What's the fastest way to level up?",
+                    "created": "2016-07-29T02:50:13.748Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Love",
+            "created": "2016-08-02T18:05:19.597Z",
+            "examples": [
+                {
+                    "text": "I love you",
+                    "created": "2016-08-02T18:05:19.597Z"
+                },
+                {
+                    "text": "Love you",
+                    "created": "2016-08-02T18:05:19.597Z"
+                },
+                {
+                    "text": "Thanks!",
+                    "created": "2016-08-02T18:05:19.597Z"
+                },
+                {
+                    "text": "Thank you!",
+                    "created": "2016-08-02T18:05:19.597Z"
+                },
+                {
+                    "text": "Thank you Watson!",
+                    "created": "2016-08-02T18:05:40.645Z"
+                },
+                {
+                    "text": "You're awesome",
+                    "created": "2016-08-02T18:05:19.597Z"
+                },
+                {
+                    "text": "You're great",
+                    "created": "2016-08-02T18:05:19.597Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "NearMe",
+            "created": "2016-07-23T22:33:55.039Z",
+            "examples": [
+                {
+                    "text": "around",
+                    "created": "2016-07-29T14:51:01.065Z"
+                },
+                {
+                    "text": "close",
+                    "created": "2016-07-29T14:50:58.852Z"
+                },
+                {
+                    "text": "near",
+                    "created": "2016-07-29T14:50:55.725Z"
+                },
+                {
+                    "text": "nearby",
+                    "created": "2016-07-29T14:50:53.556Z"
+                },
+                {
+                    "text": "What Pokemon are close to me?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What Pokemon are close to my current location?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What Pokemon are close to my location",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What Pokemon are nearby?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What Pokemon are near me?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What Pokemon are near my location?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What's near by?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What's nearby?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What's near me?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                },
+                {
+                    "text": "What's near my location?",
+                    "created": "2016-07-23T22:33:55.039Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "NumCandies",
+            "created": "2016-07-26T17:26:49.181Z",
+            "examples": [
+                {
+                    "text": "How many candies",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How many candies do I need in order to evolve Magnemite?",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How many candies do I need to evolve",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How many candies do I need to evolve Pikachu?",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How many candy",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How much candies",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How much candy",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How much candy do I need in order to evolve Bulbasaur?",
+                    "created": "2016-07-26T17:26:49.181Z"
+                },
+                {
+                    "text": "How much candy do I need to evolve",
+                    "created": "2016-07-26T17:26:49.181Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "PikachuStarter",
+            "created": "2016-07-29T02:42:56.257Z",
+            "examples": [
+                {
+                    "text": "How can I catch a Pikachu?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                },
+                {
+                    "text": "How can I catch Pikachu?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                },
+                {
+                    "text": "How can I choose Pikachu as a starter?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                },
+                {
+                    "text": "How can I get a Pikachu?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                },
+                {
+                    "text": "How can I get a Pikachu at the beginning of the game?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                },
+                {
+                    "text": "What is the Pikachu easter egg?",
+                    "created": "2016-07-29T02:42:56.257Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "PokemonDescribe",
+            "created": "2016-07-18T23:50:04.350Z",
+            "examples": [
+                {
+                    "text": "Can you give me some information on",
+                    "created": "2016-07-30T21:56:56.541Z"
+                },
+                {
+                    "text": "Can you give me some more information on",
+                    "created": "2016-07-30T21:57:03.098Z"
+                },
+                {
+                    "text": "Can you tell me info about",
+                    "created": "2016-07-30T21:57:14.063Z"
+                },
+                {
+                    "text": "Can you tell me more about",
+                    "created": "2016-07-18T23:52:02.097Z"
+                },
+                {
+                    "text": "Can you tell me more info about",
+                    "created": "2016-07-30T21:57:07.993Z"
+                },
+                {
+                    "text": "Can you tell me more information about",
+                    "created": "2016-07-30T21:57:27.341Z"
+                },
+                {
+                    "text": "Describe",
+                    "created": "2016-07-20T21:05:48.926Z"
+                },
+                {
+                    "text": "Describe Fire",
+                    "created": "2016-07-30T21:07:36.593Z"
+                },
+                {
+                    "text": "Describe Ice type",
+                    "created": "2016-07-30T21:07:34.242Z"
+                },
+                {
+                    "text": "Describe this Pokemon to me",
+                    "created": "2016-07-18T23:50:17.982Z"
+                },
+                {
+                    "text": "Info about",
+                    "created": "2016-07-30T21:55:00.578Z"
+                },
+                {
+                    "text": "Info about this Pokemon",
+                    "created": "2016-07-30T21:55:24.653Z"
+                },
+                {
+                    "text": "Pikachu info",
+                    "created": "2016-07-30T21:55:10.010Z"
+                },
+                {
+                    "text": "@Pokemon info",
+                    "created": "2016-07-30T21:55:05.482Z"
+                },
+                {
+                    "text": "talk to me about",
+                    "created": "2016-07-20T21:06:00.038Z"
+                },
+                {
+                    "text": "Tell me about",
+                    "created": "2016-07-18T23:50:13.945Z"
+                },
+                {
+                    "text": "Tell me about Ice Type",
+                    "created": "2016-07-30T21:07:41.367Z"
+                },
+                {
+                    "text": "Tell me about this Pokemon",
+                    "created": "2016-07-18T23:50:10.658Z"
+                },
+                {
+                    "text": "Tell me about type",
+                    "created": "2016-07-30T21:07:44.107Z"
+                },
+                {
+                    "text": "What is",
+                    "created": "2016-07-21T00:02:09.228Z"
+                },
+                {
+                    "text": "What is a",
+                    "created": "2016-07-20T22:13:00.956Z"
+                },
+                {
+                    "text": "What makes this Pokemon so special?",
+                    "created": "2016-07-18T23:50:28.742Z"
+                },
+                {
+                    "text": "What's a",
+                    "created": "2016-07-20T22:11:00.262Z"
+                },
+                {
+                    "text": "Who is",
+                    "created": "2016-07-21T00:02:13.635Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "PokemonMatchup",
+            "created": "2016-07-31T01:20:37.337Z",
+            "examples": [
+                {
+                    "text": "what is better",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "what is better, Jolteon, Flareon, or Vapreon",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "what Pokemon is better?",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "What Pokemon is better",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "what pokemon is stronger",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "what pokemon is stronger?",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "What Pokemon is the best",
+                    "created": "2016-07-31T16:51:18.178Z"
+                },
+                {
+                    "text": "What Pokemon is the best out of these",
+                    "created": "2016-07-31T16:51:23.593Z"
+                },
+                {
+                    "text": "What type is Fighting better than?",
+                    "created": "2016-08-02T16:58:01.111Z"
+                },
+                {
+                    "text": "What type is Ghost best against",
+                    "created": "2016-08-02T16:58:18.478Z"
+                },
+                {
+                    "text": "What type is Poison better than",
+                    "created": "2016-08-02T16:58:07.484Z"
+                },
+                {
+                    "text": "What type is this one best against",
+                    "created": "2016-08-02T16:58:23.671Z"
+                },
+                {
+                    "text": "which is better",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "Which Pokemon is better",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "Which Pokemon is better, Pikachu or Bulbasaur?",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "Which Pokemon is stronger",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "which pokemon is the best",
+                    "created": "2016-07-31T01:20:37.337Z"
+                },
+                {
+                    "text": "Which Pokemon is the best out of",
+                    "created": "2016-07-31T16:51:07.693Z"
+                },
+                {
+                    "text": "who is better",
+                    "created": "2016-07-31T01:20:37.337Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "PossibleMoves",
+            "created": "2016-07-18T23:44:38.776Z",
+            "examples": [
+                {
+                    "text": "What are some moves",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What are the list of possible moves that",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What are the moves that",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What can this Pokemon learn?",
+                    "created": "2016-07-23T23:07:53.282Z"
+                },
+                {
+                    "text": "What moves",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What moves are available for",
+                    "created": "2016-07-23T23:07:59.534Z"
+                },
+                {
+                    "text": "What moves are possible for",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What moves can",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What moves could",
+                    "created": "2016-07-18T23:44:38.776Z"
+                },
+                {
+                    "text": "What possible moves could",
+                    "created": "2016-07-18T23:44:38.776Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "PossibleTypes",
+            "created": "2016-07-25T18:33:18.648Z",
+            "examples": [
+                {
+                    "text": "What type",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type could Pikachu be?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type could this Pokemon be?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type is",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type is?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type is Pikachu?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type is this Pokemon",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What type is this Pokemon?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What types are this Pokemon",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What types are this Pokemon?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                },
+                {
+                    "text": "What types could Bulbasaur be?",
+                    "created": "2016-07-25T18:33:18.648Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "ServersDown",
+            "created": "2016-07-20T20:02:35.888Z",
+            "examples": [
+                {
+                    "text": "Are the Pokemon Go servers down",
+                    "created": "2016-07-20T20:04:17.343Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers down?",
+                    "created": "2016-07-20T20:02:49.473Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers offline",
+                    "created": "2016-07-20T20:04:25.208Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers offline?",
+                    "created": "2016-07-20T20:03:08.192Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers unavailable",
+                    "created": "2016-07-20T20:04:31.108Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers unavailable?",
+                    "created": "2016-07-20T20:03:39.566Z"
+                },
+                {
+                    "text": "are the servers down",
+                    "created": "2016-07-20T20:04:01.046Z"
+                },
+                {
+                    "text": "Are the servers down?",
+                    "created": "2016-07-20T20:02:55.205Z"
+                },
+                {
+                    "text": "are the servers offline",
+                    "created": "2016-07-20T20:04:05.872Z"
+                },
+                {
+                    "text": "Are the servers offline?",
+                    "created": "2016-07-20T20:03:02.490Z"
+                },
+                {
+                    "text": "are the servers unavailable",
+                    "created": "2016-07-20T20:04:09.921Z"
+                },
+                {
+                    "text": "Are the servers unavailable?",
+                    "created": "2016-07-20T20:03:18.849Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "ServersUp",
+            "created": "2016-07-20T20:02:29.324Z",
+            "examples": [
+                {
+                    "text": "are the pokemon go servers available?",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "Are the Pokemon Go servers available",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "are the pokemon go servers online?",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "Are the Pokemon Go Servers online",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "are the servers available?",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "Are the servers available",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "are the servers online",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "Are the servers online?",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "are the servers up",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "Are the servers up?",
+                    "created": "2016-07-20T20:02:29.324Z"
+                },
+                {
+                    "text": "can pokemon go be played right now?",
+                    "created": "2016-07-29T14:50:33.638Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "SpecificPokemon",
+            "created": "2016-07-26T19:41:34.583Z",
+            "examples": [
+                {
+                    "text": "Are there region exclusive Pokemon?",
+                    "created": "2016-07-26T19:41:34.583Z"
+                },
+                {
+                    "text": "Are there region exclusive Pokémon?",
+                    "created": "2016-07-26T19:41:34.583Z"
+                },
+                {
+                    "text": "Can you only catch certain Pokemon in certain areas?",
+                    "created": "2016-07-26T19:41:34.583Z"
+                },
+                {
+                    "text": "How come I can't find this Pokemon?",
+                    "created": "2016-07-29T13:33:57.542Z"
+                },
+                {
+                    "text": "I can't find this Pokemon?",
+                    "created": "2016-07-29T13:34:05.196Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "StrengthWeakness",
+            "created": "2016-07-30T01:31:32.152Z",
+            "examples": [
+                {
+                    "text": "beat charizard",
+                    "created": "2016-07-30T19:18:24.554Z"
+                },
+                {
+                    "text": "Beat Pikachu",
+                    "created": "2016-07-30T19:18:29.989Z"
+                },
+                {
+                    "text": "Best against Pikachu",
+                    "created": "2016-07-30T19:18:40.359Z"
+                },
+                {
+                    "text": "Best against Venusaur",
+                    "created": "2016-07-30T19:18:46.057Z"
+                },
+                {
+                    "text": "Help me defeat",
+                    "created": "2016-07-30T01:34:18.522Z"
+                },
+                {
+                    "text": "Help me defeat Pikachu",
+                    "created": "2016-07-30T01:34:35.016Z"
+                },
+                {
+                    "text": "help me defeat @Pokemon",
+                    "created": "2016-07-30T01:34:30.221Z"
+                },
+                {
+                    "text": "How can I beat",
+                    "created": "2016-07-30T14:58:16.366Z"
+                },
+                {
+                    "text": "How can I beat Bulbasaur?",
+                    "created": "2016-07-30T01:31:52.904Z"
+                },
+                {
+                    "text": "How can I beat Pikachu?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "How can I beat @Pokemon",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "How can I beat this Pokemon?",
+                    "created": "2016-07-30T14:58:27.323Z"
+                },
+                {
+                    "text": "How to beat",
+                    "created": "2016-07-30T14:58:12.933Z"
+                },
+                {
+                    "text": "How to beat this Pokemon",
+                    "created": "2016-07-30T14:58:21.948Z"
+                },
+                {
+                    "text": "What is best against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is best against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is best against Pikachu?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is best against this Pokemon?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is good against",
+                    "created": "2016-07-30T14:58:47.933Z"
+                },
+                {
+                    "text": "What is not very effective against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is not very effective against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is strongest against this Pokemon?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is strongest versus",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is supereffective against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is supereffective against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is the best Pokemon against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is the best way to beat Pikachu?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is the strongest Pokemon against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is the weakest Pokemon against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is the worst Pokemon against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is weakest against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is weakest against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is weakest against this Pokemon?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What is weakest versus",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's strongest against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's strongest against Pikachu?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's strongest against this pokemon",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "What's the best way to beat Pikachu?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's weakest against",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's weakest against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's weakest against this Pokemon",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's worst against?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                },
+                {
+                    "text": "what's worst against this Pokemon?",
+                    "created": "2016-07-30T01:31:32.152Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "TableFlip",
+            "created": "2016-07-24T16:45:52.046Z",
+            "examples": [
+                {
+                    "text": "(╯°□°）╯",
+                    "created": "2016-07-24T16:46:11.347Z"
+                },
+                {
+                    "text": "(╯°□°）╯︵ ┻━┻",
+                    "created": "2016-07-24T16:46:08.325Z"
+                },
+                {
+                    "text": "︵ ┻━┻",
+                    "created": "2016-07-24T16:46:20.382Z"
+                },
+                {
+                    "text": "ノ┬─┬ノ ︵ ( \\o°o)\\",
+                    "created": "2016-07-24T16:45:56.573Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "Team",
+            "created": "2016-07-29T02:41:47.533Z",
+            "examples": [
+                {
+                    "text": "What Pokemon GO team is the best?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What Pokemon go team is the best team?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team are you on?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team is best",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "what team is Professor Watson on?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team is Professor Watson on",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team is the best",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team is the best team?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "What team is Watson on?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "what team is your favorite?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                },
+                {
+                    "text": "Which team is Watson on?",
+                    "created": "2016-07-29T02:41:47.533Z"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "TypeQuery",
+            "created": "2016-07-30T15:01:40.434Z",
+            "examples": [
+                {
+                    "text": "What Pokemon",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "what pokemon are",
+                    "created": "2016-07-30T15:04:34.392Z"
+                },
+                {
+                    "text": "What Pokemon are fire",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "What Pokemon are this type",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "What Pokemon are this type?",
+                    "created": "2016-07-31T21:43:26.151Z"
+                },
+                {
+                    "text": "What Pokemon are type?",
+                    "created": "2016-07-31T21:43:31.269Z"
+                },
+                {
+                    "text": "What Pokemon are @Type type",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "What Pokemon are water",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "What Pokemon could be",
+                    "created": "2016-07-30T15:04:20.739Z"
+                },
+                {
+                    "text": "What Pokemon could be this type",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "what pokemon is?",
+                    "created": "2016-07-30T15:04:29.651Z"
+                },
+                {
+                    "text": "What Pokemon is",
+                    "created": "2016-07-30T15:01:40.434Z"
+                },
+                {
+                    "text": "What Pokemon is grass type",
+                    "created": "2016-07-30T15:01:40.434Z"
+                }
+            ],
+            "description": null
+        }
+    ],
+    "entities": [
+        {
+            "entity": "EggDistance",
+            "values": [
+                {
+                    "value": "10",
+                    "created": "2016-07-19T00:11:19.334Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "10k",
+                        "10km",
+                        "10 km",
+                        "ten"
+                    ]
+                },
+                {
+                    "value": "2",
+                    "created": "2016-07-19T00:11:19.334Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "2k",
+                        "2km",
+                        "2 km",
+                        "two"
+                    ]
+                },
+                {
+                    "value": "5",
+                    "created": "2016-07-19T00:11:19.334Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "5k",
+                        "5km",
+                        "5 km",
+                        "five"
+                    ]
+                }
+            ],
+            "created": "2016-07-19T00:11:19.334Z",
+            "open_list": false,
+            "description": null
+        },
+        {
+            "entity": "Pokemon",
+            "values": [
+                {
+                    "value": "Abra",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "abra"
+                    ]
+                },
+                {
+                    "value": "Aerodactyl",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "aerodactyl"
+                    ]
+                },
+                {
+                    "value": "Alakazam",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "alakazam"
+                    ]
+                },
+                {
+                    "value": "Arbok",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "arbok"
+                    ]
+                },
+                {
+                    "value": "Arcanine",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "arcanine"
+                    ]
+                },
+                {
+                    "value": "Articuno",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "articuno"
+                    ]
+                },
+                {
+                    "value": "Beedrill",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "beedrill"
+                    ]
+                },
+                {
+                    "value": "Bellsprout",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "bellsprout"
+                    ]
+                },
+                {
+                    "value": "Blastoise",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "blastoise"
+                    ]
+                },
+                {
+                    "value": "Bulbasaur",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "bulbasaur"
+                    ]
+                },
+                {
+                    "value": "Butterfree",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "butterfree"
+                    ]
+                },
+                {
+                    "value": "Caterpie",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "caterpie"
+                    ]
+                },
+                {
+                    "value": "Chansey",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "chansey"
+                    ]
+                },
+                {
+                    "value": "Charizard",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "charizard"
+                    ]
+                },
+                {
+                    "value": "Charmander",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "charmander"
+                    ]
+                },
+                {
+                    "value": "Charmeleon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "charmeleon"
+                    ]
+                },
+                {
+                    "value": "Clefable",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "clefable"
+                    ]
+                },
+                {
+                    "value": "Clefairy",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "clefairy"
+                    ]
+                },
+                {
+                    "value": "Cloyster",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "cloyster"
+                    ]
+                },
+                {
+                    "value": "Cubone",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "cubone"
+                    ]
+                },
+                {
+                    "value": "Dewgong",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dewgong"
+                    ]
+                },
+                {
+                    "value": "Diglett",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "diglett"
+                    ]
+                },
+                {
+                    "value": "Ditto",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ditto"
+                    ]
+                },
+                {
+                    "value": "Dodrio",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dodrio"
+                    ]
+                },
+                {
+                    "value": "Doduo",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "doduo"
+                    ]
+                },
+                {
+                    "value": "Dragonair",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dragonair"
+                    ]
+                },
+                {
+                    "value": "Dragonite",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dragonite"
+                    ]
+                },
+                {
+                    "value": "Dratini",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dratini"
+                    ]
+                },
+                {
+                    "value": "Drowzee",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "drowzee"
+                    ]
+                },
+                {
+                    "value": "Dugtrio",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dugtrio"
+                    ]
+                },
+                {
+                    "value": "Eevee",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "eevee"
+                    ]
+                },
+                {
+                    "value": "Ekans",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ekans"
+                    ]
+                },
+                {
+                    "value": "Electabuzz",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "electabuzz"
+                    ]
+                },
+                {
+                    "value": "Electrode",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "electrode"
+                    ]
+                },
+                {
+                    "value": "Exeggcute",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "exeggcute"
+                    ]
+                },
+                {
+                    "value": "Exeggutor",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "exeggutor"
+                    ]
+                },
+                {
+                    "value": "Farfetch'd",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "farfetch'd"
+                    ]
+                },
+                {
+                    "value": "Fearow",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "fearow"
+                    ]
+                },
+                {
+                    "value": "Flareon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "flareon"
+                    ]
+                },
+                {
+                    "value": "Gastly",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "gastly"
+                    ]
+                },
+                {
+                    "value": "Gengar",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "gengar"
+                    ]
+                },
+                {
+                    "value": "Geodude",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "geodude"
+                    ]
+                },
+                {
+                    "value": "Gloom",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "gloom"
+                    ]
+                },
+                {
+                    "value": "Golbat",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "golbat"
+                    ]
+                },
+                {
+                    "value": "Goldeen",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "goldeen"
+                    ]
+                },
+                {
+                    "value": "Golduck",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "golduck"
+                    ]
+                },
+                {
+                    "value": "Golem",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "golem"
+                    ]
+                },
+                {
+                    "value": "Graveler",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "graveler"
+                    ]
+                },
+                {
+                    "value": "Grimer",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "grimer"
+                    ]
+                },
+                {
+                    "value": "Growlithe",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "growlithe"
+                    ]
+                },
+                {
+                    "value": "Gyarados",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "gyarados"
+                    ]
+                },
+                {
+                    "value": "Haunter",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "haunter"
+                    ]
+                },
+                {
+                    "value": "Hitmonchan",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "hitmonchan"
+                    ]
+                },
+                {
+                    "value": "Hitmonlee",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "hitmonlee"
+                    ]
+                },
+                {
+                    "value": "Horsea",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "horsea"
+                    ]
+                },
+                {
+                    "value": "Hypno",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "hypno"
+                    ]
+                },
+                {
+                    "value": "Ivysaur",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ivysaur"
+                    ]
+                },
+                {
+                    "value": "Jigglypuff",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "jigglypuff"
+                    ]
+                },
+                {
+                    "value": "Jolteon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "jolteon"
+                    ]
+                },
+                {
+                    "value": "Jynx",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "jynx"
+                    ]
+                },
+                {
+                    "value": "Kabuto",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kabuto"
+                    ]
+                },
+                {
+                    "value": "Kabutops",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kabutops"
+                    ]
+                },
+                {
+                    "value": "Kadabra",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kadabra"
+                    ]
+                },
+                {
+                    "value": "Kakuna",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kakuna"
+                    ]
+                },
+                {
+                    "value": "Kangaskhan",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kangaskhan"
+                    ]
+                },
+                {
+                    "value": "Kingler",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "kingler"
+                    ]
+                },
+                {
+                    "value": "Koffing",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "koffing"
+                    ]
+                },
+                {
+                    "value": "Krabby",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "krabby"
+                    ]
+                },
+                {
+                    "value": "Lapras",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "lapras"
+                    ]
+                },
+                {
+                    "value": "Lickitung",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "lickitung"
+                    ]
+                },
+                {
+                    "value": "Machamp",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "machamp"
+                    ]
+                },
+                {
+                    "value": "Machoke",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "machoke"
+                    ]
+                },
+                {
+                    "value": "Machop",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "machop"
+                    ]
+                },
+                {
+                    "value": "Magikarp",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "magikarp"
+                    ]
+                },
+                {
+                    "value": "Magmar",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "magmar"
+                    ]
+                },
+                {
+                    "value": "Magnemite",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "magnemite"
+                    ]
+                },
+                {
+                    "value": "Magneton",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "magneton"
+                    ]
+                },
+                {
+                    "value": "Mankey",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "mankey"
+                    ]
+                },
+                {
+                    "value": "Marowak",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "marowak"
+                    ]
+                },
+                {
+                    "value": "Meowth",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "meowth"
+                    ]
+                },
+                {
+                    "value": "Metapod",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "metapod"
+                    ]
+                },
+                {
+                    "value": "Mew",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "mew"
+                    ]
+                },
+                {
+                    "value": "Mewtwo",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "mewtwo"
+                    ]
+                },
+                {
+                    "value": "Moltres",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "moltres"
+                    ]
+                },
+                {
+                    "value": "Mr. Mime",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "mr. mime"
+                    ]
+                },
+                {
+                    "value": "Muk",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "muk"
+                    ]
+                },
+                {
+                    "value": "Name",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "name"
+                    ]
+                },
+                {
+                    "value": "Nidoking",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidoking"
+                    ]
+                },
+                {
+                    "value": "Nidoqueen",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidoqueen"
+                    ]
+                },
+                {
+                    "value": "Nidoran♀",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidoran♀"
+                    ]
+                },
+                {
+                    "value": "Nidoran♂",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidoran♂"
+                    ]
+                },
+                {
+                    "value": "Nidorina",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidorina"
+                    ]
+                },
+                {
+                    "value": "Nidorino",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "nidorino"
+                    ]
+                },
+                {
+                    "value": "Ninetales",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ninetales"
+                    ]
+                },
+                {
+                    "value": "Oddish",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "oddish"
+                    ]
+                },
+                {
+                    "value": "Omanyte",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "omanyte"
+                    ]
+                },
+                {
+                    "value": "Omastar",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "omastar"
+                    ]
+                },
+                {
+                    "value": "Onix",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "onix"
+                    ]
+                },
+                {
+                    "value": "Paras",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "paras"
+                    ]
+                },
+                {
+                    "value": "Parasect",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "parasect"
+                    ]
+                },
+                {
+                    "value": "Persian",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "persian"
+                    ]
+                },
+                {
+                    "value": "Pidgeot",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "pidgeot"
+                    ]
+                },
+                {
+                    "value": "Pidgeotto",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "pidgeotto"
+                    ]
+                },
+                {
+                    "value": "Pidgey",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "pidgey"
+                    ]
+                },
+                {
+                    "value": "Pikachu",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "pikachu"
+                    ]
+                },
+                {
+                    "value": "Pinsir",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "pinsir"
+                    ]
+                },
+                {
+                    "value": "Poliwag",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "poliwag"
+                    ]
+                },
+                {
+                    "value": "Poliwhirl",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "poliwhirl"
+                    ]
+                },
+                {
+                    "value": "Poliwrath",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "poliwrath"
+                    ]
+                },
+                {
+                    "value": "Ponyta",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ponyta"
+                    ]
+                },
+                {
+                    "value": "Porygon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "porygon"
+                    ]
+                },
+                {
+                    "value": "Primeape",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "primeape"
+                    ]
+                },
+                {
+                    "value": "Psyduck",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "psyduck"
+                    ]
+                },
+                {
+                    "value": "Raichu",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "raichu"
+                    ]
+                },
+                {
+                    "value": "Rapidash",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "rapidash"
+                    ]
+                },
+                {
+                    "value": "Raticate",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "raticate"
+                    ]
+                },
+                {
+                    "value": "Rattata",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "rattata"
+                    ]
+                },
+                {
+                    "value": "Rhydon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "rhydon"
+                    ]
+                },
+                {
+                    "value": "Rhyhorn",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "rhyhorn"
+                    ]
+                },
+                {
+                    "value": "Sandshrew",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "sandshrew"
+                    ]
+                },
+                {
+                    "value": "Sandslash",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "sandslash"
+                    ]
+                },
+                {
+                    "value": "Scyther",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "scyther"
+                    ]
+                },
+                {
+                    "value": "Seadra",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "seadra"
+                    ]
+                },
+                {
+                    "value": "Seaking",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "seaking"
+                    ]
+                },
+                {
+                    "value": "Seel",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "seel"
+                    ]
+                },
+                {
+                    "value": "Shellder",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "shellder"
+                    ]
+                },
+                {
+                    "value": "Slowbro",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "slowbro"
+                    ]
+                },
+                {
+                    "value": "Slowpoke",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "slowpoke"
+                    ]
+                },
+                {
+                    "value": "Snorlax",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "snorlax"
+                    ]
+                },
+                {
+                    "value": "Spearow",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "spearow"
+                    ]
+                },
+                {
+                    "value": "Squirtle",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "squirtle"
+                    ]
+                },
+                {
+                    "value": "Starmie",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "starmie"
+                    ]
+                },
+                {
+                    "value": "Staryu",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "staryu"
+                    ]
+                },
+                {
+                    "value": "Tangela",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "tangela"
+                    ]
+                },
+                {
+                    "value": "Tauros",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "tauros"
+                    ]
+                },
+                {
+                    "value": "Tentacool",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "tentacool"
+                    ]
+                },
+                {
+                    "value": "Tentacruel",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "tentacruel"
+                    ]
+                },
+                {
+                    "value": "Vaporeon",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "vaporeon"
+                    ]
+                },
+                {
+                    "value": "Venomoth",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "venomoth"
+                    ]
+                },
+                {
+                    "value": "Venonat",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "venonat"
+                    ]
+                },
+                {
+                    "value": "Venusaur",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "venusaur"
+                    ]
+                },
+                {
+                    "value": "Victreebel",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "victreebel"
+                    ]
+                },
+                {
+                    "value": "Vileplume",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "vileplume"
+                    ]
+                },
+                {
+                    "value": "Voltorb",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "voltorb"
+                    ]
+                },
+                {
+                    "value": "Vulpix",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "vulpix"
+                    ]
+                },
+                {
+                    "value": "Wartortle",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "wartortle"
+                    ]
+                },
+                {
+                    "value": "Weedle",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "weedle"
+                    ]
+                },
+                {
+                    "value": "Weepinbell",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "weepinbell"
+                    ]
+                },
+                {
+                    "value": "Weezing",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "weezing"
+                    ]
+                },
+                {
+                    "value": "Wigglytuff",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "wigglytuff"
+                    ]
+                },
+                {
+                    "value": "Zapdos",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "zapdos"
+                    ]
+                },
+                {
+                    "value": "Zubat",
+                    "created": "2016-07-18T23:40:49.138Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "zubat"
+                    ]
+                }
+            ],
+            "created": "2016-07-18T23:40:49.138Z",
+            "open_list": false,
+            "description": null
+        },
+        {
+            "entity": "Type",
+            "values": [
+                {
+                    "value": "Bug",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "bug"
+                    ]
+                },
+                {
+                    "value": "Dark",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dark"
+                    ]
+                },
+                {
+                    "value": "Dragon",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "dragon"
+                    ]
+                },
+                {
+                    "value": "Electric",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "electric"
+                    ]
+                },
+                {
+                    "value": "Fairy",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "fairy"
+                    ]
+                },
+                {
+                    "value": "Fighting",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "fighting"
+                    ]
+                },
+                {
+                    "value": "Fire",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "fire"
+                    ]
+                },
+                {
+                    "value": "Flying",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "flying"
+                    ]
+                },
+                {
+                    "value": "Ghost",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ghost"
+                    ]
+                },
+                {
+                    "value": "Grass",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "grass"
+                    ]
+                },
+                {
+                    "value": "Ground",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ground"
+                    ]
+                },
+                {
+                    "value": "Ice",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "ice"
+                    ]
+                },
+                {
+                    "value": "Normal",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "normal"
+                    ]
+                },
+                {
+                    "value": "Poison",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "poison"
+                    ]
+                },
+                {
+                    "value": "Psychic",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "psychic"
+                    ]
+                },
+                {
+                    "value": "Rock",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "rock"
+                    ]
+                },
+                {
+                    "value": "Steel",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "steel"
+                    ]
+                },
+                {
+                    "value": "Water",
+                    "created": "2016-07-18T23:53:32.411Z",
+                    "metadata": null,
+                    "synonyms": [
+                        "water"
+                    ]
+                }
+            ],
+            "created": "2016-07-18T23:53:32.411Z",
+            "open_list": false,
+            "description": null
+        }
+    ],
+    "language": "en",
+    "metadata": null,
+    "modified": "2016-08-02T19:04:14.863Z",
+    "created_by": null,
+    "description": "Workspace for Professor Watson intents, entities, etc.",
+    "modified_by": null,
+    "dialog_nodes": [
+        {
+            "go_to": null,
+            "output": {
+                "text": "┬──┬◡ﾉ(° -°ﾉ)"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-24T16:46:51.766Z",
+            "metadata": null,
+            "conditions": "#TableFlip",
+            "description": null,
+            "dialog_node": "node_2_1469378811652",
+            "previous_sibling": "node_1_1469122393462"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "<3"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T18:05:24.734Z",
+            "metadata": null,
+            "conditions": "#Love",
+            "description": null,
+            "dialog_node": "node_5_1470161124559",
+            "previous_sibling": "node_4_1470160960039"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "At the beginning of the game, when the three starter Pokemon spawn, you can walk away from them in order to have a Pikachu spawn nearby. Then, you will be able to catch a Pikachu as your starter."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-29T02:44:13.295Z",
+            "metadata": null,
+            "conditions": "#PikachuStarter",
+            "description": null,
+            "dialog_node": "node_4_1469760255147",
+            "previous_sibling": "node_2_1469759865035"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "By using a Lucky Egg while evolving or hatching Pokémon, you can gain experience points twice as fast than if you had done the same things without a Lucky Egg. While evolving normally gives 500 XP, doing so while under the influence of a Lucky Egg gives 1000 XP instead (not including evolving into a new Pokémon)."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T16:52:56.913Z",
+            "metadata": null,
+            "conditions": "#LevelUp",
+            "description": null,
+            "dialog_node": "node_1_1470156776325",
+            "previous_sibling": "node_1_1470147960432"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "Hello there! I'm Professor Watson. Let me know if you have any questions :)"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-21T17:33:13.743Z",
+            "metadata": null,
+            "conditions": "#Greetings",
+            "description": null,
+            "dialog_node": "node_1_1469122393462",
+            "previous_sibling": "node_8_1468941871740"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "I didn't catch that. Please try again with a different query. Thanks!"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-18T23:55:07.721Z",
+            "metadata": null,
+            "conditions": "anything_else",
+            "description": null,
+            "dialog_node": "node_2_1468886109079",
+            "previous_sibling": "node_1_1470164620673"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "I'm doing great today! Thank you for asking!"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-29T02:37:43.163Z",
+            "metadata": null,
+            "conditions": "#Emotion",
+            "description": null,
+            "dialog_node": "node_2_1469759865035",
+            "previous_sibling": "node_2_1469378811652"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "Out of all Pokemon currently obtainable in the game, Dragonite is the strongest, with a maximum CP value of 3280. However, it is extremely susceptible to Ice Type Pokemon and their attacks."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T19:03:40.848Z",
+            "metadata": null,
+            "conditions": "#BestPokemon",
+            "description": null,
+            "dialog_node": "node_1_1470164620673",
+            "previous_sibling": "node_5_1470161124559"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "Supereffectiveness of @Pokemon"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-22T21:45:42.015Z",
+            "metadata": null,
+            "conditions": "#Supereffectiveness && @Pokemon",
+            "description": null,
+            "dialog_node": "node_1_1469223941843",
+            "previous_sibling": "node_4_1469225031405"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "What Pokémon are in this gym? Please list their names on one line."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-22T22:03:51.778Z",
+            "metadata": null,
+            "conditions": "#GymBattle",
+            "description": null,
+            "dialog_node": "node_4_1469225031405",
+            "previous_sibling": "node_3_1469457641120"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You can download Pokémon GO from the iOS App Store or from the Google Play Store for free!"
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T17:07:22.484Z",
+            "metadata": null,
+            "conditions": "#GetTheGame",
+            "description": null,
+            "dialog_node": "node_2_1470157641904",
+            "previous_sibling": "node_1_1470156776325"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You can get candy for a specific Pokémon by catching more than one of that Pokémon. You get 3 candies every time you catch an individual Pokémon; you can get more by transferring the Pokémon, or by hatching the same Pokémon from an egg."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T17:56:47.608Z",
+            "metadata": null,
+            "conditions": "#GetCandies",
+            "description": null,
+            "dialog_node": "node_3_1470160607424",
+            "previous_sibling": "node_2_1470157641904"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You can get more egg incubators by purchasing them in the store, or by leveling up."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T18:02:40.227Z",
+            "metadata": null,
+            "conditions": "#Incubator",
+            "description": null,
+            "dialog_node": "node_4_1470160960039",
+            "previous_sibling": "node_3_1470160607424"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to believe in the heart of the cards."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-08-02T14:26:00.662Z",
+            "metadata": null,
+            "conditions": "#BeTheBest",
+            "description": null,
+            "dialog_node": "node_1_1470147960432",
+            "previous_sibling": "node_17_1470001440406"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to give me the name of a Pokemon before I can tell you about its evolution tree."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-24T16:20:17.327Z",
+            "metadata": null,
+            "conditions": "#Evolution",
+            "description": null,
+            "dialog_node": "node_2_1469377217123",
+            "previous_sibling": "node_1_1469377191579"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide a Type name before I can tell you what Pokémon belong to it."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:31:25.445Z",
+            "metadata": null,
+            "conditions": "#TypeQuery",
+            "description": null,
+            "dialog_node": "node_12_1470000686070",
+            "previous_sibling": "node_14_1470000729733"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the distance of the egg before I can tell you what Pokémon can hatch from it."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:12:06.205Z",
+            "metadata": null,
+            "conditions": "#EggDistance",
+            "description": null,
+            "dialog_node": "node_1_1468887126502",
+            "previous_sibling": "node_13_1468886956470"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of a Pokémon before I can help you find it."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-29T17:55:48.893Z",
+            "metadata": null,
+            "conditions": "#FindPokemon",
+            "description": null,
+            "dialog_node": "node_1_1469814948664",
+            "previous_sibling": "node_2_1470000249374"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of a Pokémon before I can tell you its possible moves."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:09:01.147Z",
+            "metadata": null,
+            "conditions": "#PossibleMoves",
+            "description": null,
+            "dialog_node": "node_12_1468886942206",
+            "previous_sibling": "node_10_1468886896231"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of a Pokémon before I can tell you what type(s) it has."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:44:00.031Z",
+            "metadata": null,
+            "conditions": "#PossibleTypes",
+            "description": null,
+            "dialog_node": "node_17_1470001440406",
+            "previous_sibling": "node_16_1470001360981"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of a Pokémon or Type before I can tell you about it."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:15:25.599Z",
+            "metadata": null,
+            "conditions": "#PokemonDescribe",
+            "description": null,
+            "dialog_node": "node_6_1468887326950",
+            "previous_sibling": "node_4_1468887278926"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of at least two Pokémon before I can tell you the type advantages of it."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:27:49.351Z",
+            "metadata": null,
+            "conditions": "#StrengthWeakness",
+            "description": null,
+            "dialog_node": "node_9_1470000469991",
+            "previous_sibling": "node_8_1470000450341"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to provide the name of at least two Pokémon before I can tell you which of them is better."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:25:25.744Z",
+            "metadata": null,
+            "conditions": "#PokemonMatchup",
+            "description": null,
+            "dialog_node": "node_4_1470000326142",
+            "previous_sibling": "node_3_1470000295173"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You need to tell me the name of the Pokémon before I can tell you about its supereffectiveness."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-25T14:41:14.419Z",
+            "metadata": null,
+            "conditions": "#Supereffectiveness",
+            "description": null,
+            "dialog_node": "node_4_1469457674383",
+            "previous_sibling": "node_1_1469223941843"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want me to describe @Pokemon."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:14:37.603Z",
+            "metadata": null,
+            "conditions": "#PokemonDescribe && @Pokemon",
+            "description": null,
+            "dialog_node": "node_4_1468887278926",
+            "previous_sibling": "node_1_1468887126502"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want me to describe @Type."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T15:24:32.212Z",
+            "metadata": null,
+            "conditions": "#PokemonDescribe && @Type",
+            "description": null,
+            "dialog_node": "node_8_1468941871740",
+            "previous_sibling": "node_6_1468887326950"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know how to beat this gym with @Pokemon."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-25T14:40:41.139Z",
+            "metadata": null,
+            "conditions": "#GymBattle && @Pokemon",
+            "description": null,
+            "dialog_node": "node_3_1469457641120",
+            "previous_sibling": "node_2_1469377217123"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know the possible moves of @Pokemon."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:08:14.882Z",
+            "metadata": null,
+            "conditions": "#PossibleMoves && @Pokemon",
+            "description": null,
+            "dialog_node": "node_10_1468886896231",
+            "previous_sibling": "node_4_1469457674383"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know the type advantages of @Pokemon."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:27:29.687Z",
+            "metadata": null,
+            "conditions": "#StrengthWeakness && @Pokemon",
+            "description": null,
+            "dialog_node": "node_8_1470000450341",
+            "previous_sibling": "node_4_1470000326142"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know what Pokemon are @Type."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:32:09.067Z",
+            "metadata": null,
+            "conditions": "#TypeQuery && @Type",
+            "description": null,
+            "dialog_node": "node_14_1470000729733",
+            "previous_sibling": "node_9_1470000469991"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know what Pokemon can hatch from a @Egg-Dist kilometer egg."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-19T00:09:15.111Z",
+            "metadata": null,
+            "conditions": "#EggDistance && @Egg-Dist",
+            "description": null,
+            "dialog_node": "node_13_1468886956470",
+            "previous_sibling": "node_12_1468886942206"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know what Pokemon @Pokemon evolves into."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-24T16:19:51.777Z",
+            "metadata": null,
+            "conditions": "#Evolution && @Pokemon",
+            "description": null,
+            "dialog_node": "node_1_1469377191579",
+            "previous_sibling": null
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know what type(s) @Pokemon has."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:42:40.313Z",
+            "metadata": null,
+            "conditions": "#PossibleTypes && @Pokemon",
+            "description": null,
+            "dialog_node": "node_16_1470001360981",
+            "previous_sibling": "node_12_1470000686070"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know where to find @Pokemon."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:24:08.721Z",
+            "metadata": null,
+            "conditions": "#FindPokemon && @Pokemon",
+            "description": null,
+            "dialog_node": "node_2_1470000249374",
+            "previous_sibling": "node_4_1469760255147"
+        },
+        {
+            "go_to": null,
+            "output": {
+                "text": "You want to know which Pokemon of those specified is best."
+            },
+            "parent": null,
+            "context": null,
+            "created": "2016-07-31T21:24:54.498Z",
+            "metadata": null,
+            "conditions": "#PokemonMatchup && @Pokemon",
+            "description": null,
+            "dialog_node": "node_3_1470000295173",
+            "previous_sibling": "node_1_1469814948664"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_10_1468886896231"
+            },
+            "output": {},
+            "parent": "node_12_1468886942206",
+            "context": {
+                "prevIntent": "PossibleMoves"
+            },
+            "created": "2016-07-25T14:46:14.310Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_8_1469457973773",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_1_1468887126502"
+            },
+            "output": {},
+            "parent": "node_1_1468887126502",
+            "context": null,
+            "created": "2016-07-25T15:03:31.632Z",
+            "metadata": null,
+            "conditions": "#EggDistance",
+            "description": null,
+            "dialog_node": "node_12_1469459011595",
+            "previous_sibling": "node_10_1469458959070"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_1_1469223941843"
+            },
+            "output": {},
+            "parent": "node_4_1469457674383",
+            "context": {
+                "prevIntent": "Supereffectiveness"
+            },
+            "created": "2016-07-25T14:42:49.281Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_5_1469457769255",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_1_1469377191579"
+            },
+            "output": {},
+            "parent": "node_2_1469377217123",
+            "context": {
+                "prevIntent": "Evolution"
+            },
+            "created": "2016-07-24T16:20:49.929Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_1_1469377249716",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_12_1468886942206"
+            },
+            "output": {},
+            "parent": "node_12_1468886942206",
+            "context": {
+                "prevIntent": "PossibleMoves"
+            },
+            "created": "2016-07-25T14:46:19.834Z",
+            "metadata": null,
+            "conditions": "#PossibleMoves",
+            "description": null,
+            "dialog_node": "node_9_1469457979696",
+            "previous_sibling": "node_8_1469457973773"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_13_1468886956470"
+            },
+            "output": {},
+            "parent": "node_1_1468887126502",
+            "context": {
+                "prevIntent": "EggDistance"
+            },
+            "created": "2016-07-25T15:02:39.369Z",
+            "metadata": null,
+            "conditions": "@Egg-Dist",
+            "description": null,
+            "dialog_node": "node_10_1469458959070",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_14_1470000729733"
+            },
+            "output": {},
+            "parent": "node_12_1470000686070",
+            "context": {
+                "prevIntent": "TypeQuery"
+            },
+            "created": "2016-07-31T21:31:48.616Z",
+            "metadata": null,
+            "conditions": "@Type",
+            "description": null,
+            "dialog_node": "node_13_1470000709006",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_16_1470001360981"
+            },
+            "output": {},
+            "parent": "node_17_1470001440406",
+            "context": {
+                "prevIntent": "PossibleTypes"
+            },
+            "created": "2016-07-31T21:44:13.050Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_18_1470001453686",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_2_1469377217123"
+            },
+            "output": {},
+            "parent": "node_2_1469377217123",
+            "context": {
+                "prevIntent": "Evolution"
+            },
+            "created": "2016-07-25T14:38:23.636Z",
+            "metadata": null,
+            "conditions": "#Evolution",
+            "description": null,
+            "dialog_node": "node_1_1469457503374",
+            "previous_sibling": "node_1_1469377249716"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_2_1470000249374"
+            },
+            "output": {},
+            "parent": "node_1_1469814948664",
+            "context": {
+                "prevIntent": "FindPokemon"
+            },
+            "created": "2016-07-29T17:56:10.681Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_2_1469814970486",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_3_1469457641120"
+            },
+            "output": {},
+            "parent": "node_4_1469225031405",
+            "context": {
+                "prevIntent": "GymBattle"
+            },
+            "created": "2016-07-24T00:51:12.516Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_2_1469321472227",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_3_1470000295173"
+            },
+            "output": {},
+            "parent": "node_4_1470000326142",
+            "context": {
+                "prevIntent": "PokemonMatchup"
+            },
+            "created": "2016-07-31T21:26:23.529Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_6_1470000383918",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_4_1468887278926"
+            },
+            "output": {},
+            "parent": "node_6_1468887326950",
+            "context": {
+                "prevIntent": "PokemonDescribe"
+            },
+            "created": "2016-07-24T21:45:37.358Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_4_1469396737206",
+            "previous_sibling": null
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_4_1469457674383"
+            },
+            "output": {},
+            "parent": "node_4_1469457674383",
+            "context": {
+                "prevIntent": "Supereffectiveness"
+            },
+            "created": "2016-07-25T14:43:24.851Z",
+            "metadata": null,
+            "conditions": "#Supereffectiveness",
+            "description": null,
+            "dialog_node": "node_6_1469457804813",
+            "previous_sibling": "node_5_1469457769255"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_6_1468887326950"
+            },
+            "output": {},
+            "parent": "node_6_1468887326950",
+            "context": null,
+            "created": "2016-07-25T15:03:50.321Z",
+            "metadata": null,
+            "conditions": "#PokemonDescribe",
+            "description": null,
+            "dialog_node": "node_13_1469459030268",
+            "previous_sibling": "node_14_1469459062206"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_8_1468941871740"
+            },
+            "output": {},
+            "parent": "node_6_1468887326950",
+            "context": {
+                "prevIntent": "PokemonDescribe"
+            },
+            "created": "2016-07-25T15:04:22.244Z",
+            "metadata": null,
+            "conditions": "@Type",
+            "description": null,
+            "dialog_node": "node_14_1469459062206",
+            "previous_sibling": "node_4_1469396737206"
+        },
+        {
+            "go_to": {
+                "return": null,
+                "selector": "body",
+                "dialog_node": "node_8_1470000450341"
+            },
+            "output": {},
+            "parent": "node_9_1470000469991",
+            "context": {
+                "prevIntent": "StrengthWeakness"
+            },
+            "created": "2016-07-31T21:27:55.021Z",
+            "metadata": null,
+            "conditions": "@Pokemon",
+            "description": null,
+            "dialog_node": "node_10_1470000475686",
+            "previous_sibling": null
+        }
+    ],
+    "workspace_id": "6d0985b7-0d1c-4441-bd8a-4e3fe15c596d"
+}

@@ -1,0 +1,581 @@
+[
+    {
+        "type": "poison",
+        "name": "Acid"
+    },
+    {
+        "type": "dark",
+        "name": "Bite"
+    },
+    {
+        "type": "water",
+        "name": "Bubble"
+    },
+    {
+        "type": "bug",
+        "name": "Bug Bite"
+    },
+    {
+        "type": "steel",
+        "name": "Bullet Punch"
+    },
+    {
+        "type": "psychic",
+        "name": "Confusion"
+    },
+    {
+        "type": "normal",
+        "name": "Cut"
+    },
+    {
+        "type": "dragon",
+        "name": "Dragon Breath"
+    },
+    {
+        "type": "fire",
+        "name": "Ember"
+    },
+    {
+        "type": "dark",
+        "name": "Feint Attack"
+    },
+    {
+        "type": "fire",
+        "name": "Fire Fang"
+    },
+    {
+        "type": "ice",
+        "name": "Frost Breath"
+    },
+    {
+        "type": "bug",
+        "name": "Fury Cutter"
+    },
+    {
+        "type": "ice",
+        "name": "Ice Shard"
+    },
+    {
+        "type": "fighting",
+        "name": "Karate Chop"
+    },
+    {
+        "type": "ghost",
+        "name": "Lick"
+    },
+    {
+        "type": "fighting",
+        "name": "Low Kick"
+    },
+    {
+        "type": "steel",
+        "name": "Metal Claw"
+    },
+    {
+        "type": "ground",
+        "name": "Mud Shot"
+    },
+    {
+        "type": "ground",
+        "name": "Mud Slap"
+    },
+    {
+        "type": "flying",
+        "name": "Peck"
+    },
+    {
+        "type": "poison",
+        "name": "Poison Jab"
+    },
+    {
+        "type": "poison",
+        "name": "Poison Sting"
+    },
+    {
+        "type": "normal",
+        "name": "Pound"
+    },
+    {
+        "type": "psychic",
+        "name": "Psycho Cut"
+    },
+    {
+        "type": "normal",
+        "name": "Quick Attack"
+    },
+    {
+        "type": "grass",
+        "name": "Razor Leaf"
+    },
+    {
+        "type": "fighting",
+        "name": "Rock Smash"
+    },
+    {
+        "type": "rock",
+        "name": "Rock Throw"
+    },
+    {
+        "type": "normal",
+        "name": "Scratch"
+    },
+    {
+        "type": "ghost",
+        "name": "Shadow Claw"
+    },
+    {
+        "type": "electric",
+        "name": "Spark"
+    },
+    {
+        "type": "water",
+        "name": "Splash"
+    },
+    {
+        "type": "steel",
+        "name": "Steel Wing"
+    },
+    {
+        "type": "dark",
+        "name": "Sucker Punch"
+    },
+    {
+        "type": "normal",
+        "name": "Tackle"
+    },
+    {
+        "type": "electric",
+        "name": "Thunder Shock"
+    },
+    {
+        "type": "grass",
+        "name": "Vine Whip"
+    },
+    {
+        "type": "water",
+        "name": "Water Gun"
+    },
+    {
+        "type": "flying",
+        "name": "Wing Attack"
+    },
+    {
+        "type": "psychic",
+        "name": "Zen Headbutt"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "flying",
+        "name": "Aerial Ace"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "flying",
+        "name": "Air Cutter"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "rock",
+        "name": "Ancient Power"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "water",
+        "name": "Aqua Jet"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "water",
+        "name": "Aqua Tail"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "ice",
+        "name": "Blizzard"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "normal",
+        "name": "Body Slam"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "ground",
+        "name": "Bone Club"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "fighting",
+        "name": "Brick Break"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "water",
+        "name": "Brine"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "water",
+        "name": "Bubble Beam"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "bug",
+        "name": "Bug Buzz"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "ground",
+        "name": "Bulldoze"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "fighting",
+        "name": "Cross Chop"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "poison",
+        "name": "Cross Poison"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "dark",
+        "name": "Dark Pulse"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "fairy",
+        "name": "Dazzling Gleam"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "ground",
+        "name": "Dig"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "fairy",
+        "name": "Disarming Voice"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "electric",
+        "name": "Discharge"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "dragon",
+        "name": "Dragon Claw"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "dragon",
+        "name": "Dragon Pulse"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "fairy",
+        "name": "Draining Kiss"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "flying",
+        "name": "Drill Peck"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "ground",
+        "name": "Drill Run"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "ground",
+        "name": "Earthquake"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "fire",
+        "name": "Fire Blast"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "fire",
+        "name": "Fire Punch"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "fire",
+        "name": "Flame Burst"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "fire",
+        "name": "Flame Charge"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "fire",
+        "name": "Flame Wheel"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "fire",
+        "name": "Flamethrower"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "steel",
+        "name": "Flash Cannon"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "poison",
+        "name": "Gunk Shot"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "fire",
+        "name": "Heat Wave"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "normal",
+        "name": "Horn Attack"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "flying",
+        "name": "Hurricane"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "water",
+        "name": "Hydro Pump"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "normal",
+        "name": "Hyper Beam"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "normal",
+        "name": "Hyper Fang"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "ice",
+        "name": "Ice Beam"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "ice",
+        "name": "Ice Punch"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "ice",
+        "name": "Icy Wind"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "steel",
+        "name": "Iron Head"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "grass",
+        "name": "Leaf Blade"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "fighting",
+        "name": "Low Sweep"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "steel",
+        "name": "Magnet Bomb"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "bug",
+        "name": "Megahorn"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "fairy",
+        "name": "Moonblast"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "ground",
+        "name": "Mud Bomb"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "dark",
+        "name": "Night Slash"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "ghost",
+        "name": "Ominous Wind"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "grass",
+        "name": "Petal Blizzard"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "fairy",
+        "name": "Play Rough"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "poison",
+        "name": "Poison Fang"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "rock",
+        "name": "Power Gem"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "grass",
+        "name": "Power Whip"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "psychic",
+        "name": "Psybeam"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "psychic",
+        "name": "Psychic"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "psychic",
+        "name": "Psyshock"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "rock",
+        "name": "Rock Slide"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "rock",
+        "name": "Rock Tomb"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "water",
+        "name": "Scald"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "grass",
+        "name": "Seed Bomb"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "ghost",
+        "name": "Shadow Ball"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "bug",
+        "name": "Signal Beam"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "poison",
+        "name": "Sludge"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "poison",
+        "name": "Sludge Bomb"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "poison",
+        "name": "Sludge Wave"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "grass",
+        "name": "Solar Beam"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "normal",
+        "name": "Stomp"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "rock",
+        "name": "Stone Edge"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "normal",
+        "name": "Struggle"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "fighting",
+        "name": "Submission"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "normal",
+        "name": "Swift"
+    },
+    {
+        "energy": "1 Energy",
+        "type": "electric",
+        "name": "Thunder"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "electric",
+        "name": "Thunder Punch"
+    },
+    {
+        "energy": "2 Energy",
+        "type": "electric",
+        "name": "Thunderbolt"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "dragon",
+        "name": "Twister"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "normal",
+        "name": "Vice Grip"
+    },
+    {
+        "energy": "4 Energy",
+        "type": "water",
+        "name": "Water Pulse"
+    },
+    {
+        "energy": "5 Energy",
+        "type": "normal",
+        "name": "Wrap"
+    },
+    {
+        "energy": "3 Energy",
+        "type": "bug",
+        "name": "X-Scissor"
+    }
+]

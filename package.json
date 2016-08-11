@@ -1,0 +1,28 @@
+{
+  "name": "prof-watson",
+  "version": "0.1.0",
+  "description": "Professor Watson, powered by Watson Conversation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "botkit": "^0.2.0",
+    "chai-http": "^3.0.0",
+    "cloudant": "^1.4.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "is-pokemon-go-up": "^1.1.0",
+    "json-query": "^2.1.1",
+    "jsonfile": "^2.3.1",
+    "pokego-scan": "^0.1.4",
+    "request": "^2.72.0",
+    "twilio": "^2.9.1",
+    "twit": "^2.2.4",
+    "watson-developer-cloud": "^1.12.4"
+  }
+}

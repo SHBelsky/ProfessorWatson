@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Professor Watson</title>
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/twilio.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="hero">
+    </div>
+
+    <div id="hero-inner">
+      Professor Watson
+    </div>
+
+    <div id="content">
+      <h1>Pokémon GO + Watson Conversation</h1>
+      <p><b>The knowledge of Professor Willow, and more, wherever you go.</b></p>
+      <div id="pokewatson">
+        <img src="img/Professor_Watson_Avatar.png" />
+      </div>
+    </div>
+
+    <div id="question-list">
+      <h1>What can I ask?</h1>
+      <div class="poke">Pokémon</div> = <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Kanto_Pok%C3%A9dex_number#List_of_Pok.C3.A9mon_by_Kanto_Pok.C3.A9dex_number" target="_blank">Any Generation I Pokemon Name</a><br>
+      <div class="poke">Type</div> = <a href="http://bulbapedia.bulbagarden.net/wiki/Type" target="_blank">Any Pokemon Type</a><br>
+      What does <div class="poke">Pokémon</div> evolve into? &bull; What does <div class="poke">Pokémon</div> learn? &bull; Describe <div class="poke">Pokémon/Type</div> to me<br>
+      Are the servers up? &bull; How many candies do I need in order to evolve <div class="poke">Pokémon</div>? &bull; What can hatch out of a 2/5/10 kilometer egg?<br>
+      How can I beat this gym? (<div class="poke">List of up to 10 Pokémon</div>) &bull; What is best against <div class="poke">Pokémon</div>? What is the best Pokémon in the game?<br>
+      Where can I find <div class="poke">Pokémon/Type</div>? &bull; What's the fastest way to level up? &bull; How can I beat <div class="poke">Pokémon</div>?<br>
+      What Pokémon are <div class="poke">Type</div>? &bull; What type is <div class="poke">Pokémon</div>? &bull; Which Pokemon is best, <div class="poke">List of up to 10 comma separated Pokémon</div><br>
+      How can I get more egg incubators? &bull; How can I get more candies? &bull; Where can I get Pokémon GO?
+    </div>
+
+    <div id="service-list">
+      <h1>How can I use it?</h1>
+      <div id="facebook-col">
+        <img src="img/facebook.png" /><br>
+        <p>Facebook, COMING SOON</p>
+        Send a message to the Professor Watson Facebook page!
+      </div>
+      <div id="slack-col">
+        <img src="img/slack.png" /><br>
+        <p>Slack</p>
+        Get an invite to the <a href="https://professorwatson.slack.com/">ProfessorWatson Slack team</a>! Currently accepts IBM emails only for signup.
+      </div>
+      <div id="twilio-col">
+        <img src="img/twilio.png" /><br>
+        <p>Twilio</p>
+        Try out our Twilio client below!
+      </div>
+      <div id="twitter-col">
+        <img src="img/twitter.png" /><br>
+        <p>Twitter</p>
+        Send a Tweet or DM to <a href="https://twitter.com/professorwatbot">@professorwatbot</a>!
+      </div>
+    </div>
+    <div id="twilio-chat">
+      <section>
+        <div id="messages">
+        </div>
+        <input id="chat-input" type="text" placeholder="Ask something, e.g. 'Where can I find a Pikachu?'" autofocus/>
+      </section>
+    </div>
+    <footer>
+    	Pokémon GO &copy; Niantic, Inc. 2016. All Pokémon names, moves, and information were curated from Pokémon GO and are property of their respective owners. Facebook, Slack, Twitter, and Twilio logos are property of their respective owners.
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="//media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+    <script src="//media.twiliocdn.com/sdk/js/ip-messaging/v0.10/twilio-ip-messaging.min.js"></script>
+    <script>
+//    /*eslint-env jquery */
+//    $(document).ready(function() {
+//      document.body.scrollTop = document.documentElement.scrollTop = 0;
+//       console.log(`%c ________________________________________
+//       `, "font-family:monospace");
+//      console.log("Team Mystic forever");
+//    });
+    </script>
+  </body>
+</html>
